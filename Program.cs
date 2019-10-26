@@ -38,6 +38,9 @@ namespace payroll
                 //Get Number of Hours Worked
                 Console.WriteLine("Please enter your number of hours worked");
                 numOfHoursWorked = Convert.ToDouble(Console.ReadLine());
+
+                //Calculate Salary
+                salary = (numOfHoursWorked * hourlyPay) * 52;
             }
         }
     }
